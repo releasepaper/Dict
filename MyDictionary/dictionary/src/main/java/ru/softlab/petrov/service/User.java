@@ -1,12 +1,18 @@
-package ru.softlab.petrov.servicve;
+package ru.softlab.petrov.service;
 
 public class User {
     private Long id;
     private String login;
     private String password;
     private String surname;
-    private String firstName;
+    private String firstname;
 
+    public User(String login, String password, String surname, String firstname) {
+        this.login      = login;
+        this.password   = password;
+        this.surname    = surname;
+        this.firstname  = firstname;
+    }
 
     public Long getId() {
         return id;
@@ -41,10 +47,10 @@ public class User {
     }
 
     public String getFirstName() {
-        return firstName;
+        return firstname;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.firstname = firstName;
     }
 }

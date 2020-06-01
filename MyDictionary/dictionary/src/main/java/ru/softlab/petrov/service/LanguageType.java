@@ -1,4 +1,4 @@
-package ru.softlab.petrov.servicve;
+package ru.softlab.petrov.service;
 
 public enum LanguageType {
     ENGLISH, RUSSIAN

@@ -1,4 +1,4 @@
-package ru.softlab.petrov.servicve;
+package ru.softlab.petrov.service;
 
 public class Word {
     private Long id;
@@ -6,11 +6,26 @@ public class Word {
     private String translation;
     private String transcription;
 
+    public Word(){}
+
+
+    public Word(String aNative, String translation, String transcription) {
+        this.Native = aNative;
+        this.translation = translation;
+        this.transcription = transcription;
+    }
 
     public String getNative() {
         return Native;
     }
 
+    public void setId(Long wid) {
+        id= wid;
+    }
+
+    public Long getId() {
+        return  this.id;
+    }
     public void setNative(String aNative) {
         Native = aNative;
     }

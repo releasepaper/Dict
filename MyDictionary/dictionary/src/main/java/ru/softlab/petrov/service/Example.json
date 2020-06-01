@@ -1,0 +1,14 @@
+{
+  "Dictionary": {
+    "id": 1,
+    "user": {
+      "login": "releasepaper",
+      "password": "empty",
+      "firstname": "george",
+      "surname": "petrov",
+      "id": 1
+    },
+    "languageType": "ENGLISH",
+    "words": [{"native":"Native","translation":"Родной","transcription":"Нэйтив"}]
+  }
+}
